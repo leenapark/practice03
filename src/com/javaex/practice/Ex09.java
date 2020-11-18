@@ -4,10 +4,10 @@ public class Ex09 {
 	public static void main(String[] args) {
 		int x,y;
 
-		for(y=1; y<=10; y++) {
-			for(x=0; x<=9; x++) {
-				int result = y+x;
-				System.out.print(result+"\t");
+		for(y=0; y<=9; y++) {
+			for(x=1; x<=10; x++) {
+				//int result = y+x;
+				System.out.print(x+y+"\t");
 			}System.out.println("");
 		}
 	}

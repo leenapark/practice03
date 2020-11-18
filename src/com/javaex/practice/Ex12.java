@@ -5,15 +5,19 @@ import java.util.Scanner;
 public class Ex12 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int num = 0;
 		int fac = 1;
 		
 		System.out.println("숫자를 입력하세요");
-		num = sc.nextInt();
-				
-		for(int i=num; i>=1; i--) {
+		int num = sc.nextInt();
+		System.out.println(num);
+		System.out.println("fac: "+ fac);
+		
+		
+		for(int i=1; i<=num; i++) {
 			fac = fac * i;
+			System.out.println("fac: "+ fac);
 		}
+		
 		
 		System.out.println("결과값: " + fac);
 		sc.close();
